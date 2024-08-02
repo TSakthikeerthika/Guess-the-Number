@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="C:\Users\tamil\Learn_to_code\HTML_sk\NumberGame\style.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1 style="padding: 5px;">Guess the Number </h1>
+        <button class="htp_btn">How to Play ?</button>
+    </div>
+
+
+    <div class="htp_popup">
+        <h3>---How to play---</h3>
+        <div class="instructions">
+            <p>1.Enter number 1 to 10 inside the box and click the 'check' button.</p>
+            <p>2.At start you given 10 points as score.</p>
+            <p>3.If you guss the computer generated number correctly, then you will get 1 point.</p>
+            <p>4.If wrong you get -1 point.</p>
+            <p>5.You can play the game until your score becomes '0'.</p>
+        </div>
+        <button class="close_btn">Close</button>
+    </div>
+
+    <div class="popup_overlay">
+
+    </div>
+
+    <div class="container">
+
+        <div class="inputbox">
+            <input type="number" placeholder="Enter any number 1 to 10" id="ip_number">
+            <button id="btn_check" onclick="check()">Check</button>
+        </div>
+        <div class="score" style="display: inline-flex;flex-wrap: wrap;">
+            <p>Your Score : </p>
+            <p id="score"> </p>
+        </div>
+
+        <div class="btn_newgame">
+            <button id="btn_newgame">New Game</button>
+        </div>
+
+    </div>
+
+
+    <script src="C:\Users\tamil\Learn_to_code\HTML_sk\NumberGame\script.js"></script>
+</body>
+
+</html>
