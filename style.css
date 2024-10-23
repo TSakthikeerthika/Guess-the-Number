@@ -111,6 +111,10 @@ button:active {
         top: 25%; /* Adjust position */
     }
 
+    .inputbox{
+        width: 40%;
+    }
+
     .instructions p {
         font-size: 16px; /* Adjust font size for better readability */
     }
@@ -135,5 +139,8 @@ button:active {
     button {
         width: 100%; /* Make button full width for easy access */
         padding: 10px; /* Increase button padding for touch */
+    }
+     .inputbox{
+        width: 40%;
     }
 }
